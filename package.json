@@ -14,7 +14,9 @@
   "dependencies": {
     "electron": "^36.3.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
@@ -25,6 +27,7 @@
     "@types/node": "^22.15.21",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
+    "@types/xlsx": "^0.0.35",
     "babel-loader": "^10.0.0",
     "html-webpack-plugin": "^5.6.3",
     "ts-node": "^10.9.2",
