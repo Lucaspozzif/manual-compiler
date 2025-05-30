@@ -1,5 +1,5 @@
-const { contextBridge, ipcRenderer } = require('electron');
+import { contextBridge, ipcRenderer } from 'electron';
 
-contextBridge.exposeInMainWorld('electronAPI', {
-  listFiles: (dirPath: any) => ipcRenderer.invoke('list-files', dirPath)
+contextBridge.exposeInMainWorld('api', {
+  listFiles: (folderPath: string) => ipcRenderer.invoke('list-files', folderPath),
 });
